@@ -1,0 +1,27 @@
+Zad 1
+Strict html 4.01 transitional
+<!DOCTYPE HTML PUBLIC "-//W3C// DTD HTML 4.01 Transicional//EN"/
+Strict HTML 4.01 Frameset
+<!DOCTYPE HTML PUBLIC "-//W3C// DTD HTML 4.01 frameset//EN">
+Strict HTML 4.01 Strict
+<!DOCTYPE HTML PUBLIC "-//W3C// DTD HTML 4.01//EN"/
+
+Tarnsitional: pozwala na używanie elementów przestarzałych, ułatwiając przejście z starszych wersji html
+Frameset: Przeznaczony do dokumentów zawierających ramki 
+Strict: Wersja restykcyjna, która eliminuje wiele cech uznawancyh za przestarzałe lub niebezpieczne
+
+Zad 2
+<!doctype html>
+<html lang="en">
+<head>
+<title> Moja strona internetowa </title>
+</head>
+<body>
+To jesty moja strona internetowa
+</body>
+</html>
+
+Zad 3
+ a) DTD XHTML 1.1
+b) Przykład do zadania
+c) pl
