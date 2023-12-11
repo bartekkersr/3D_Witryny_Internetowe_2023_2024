@@ -1,0 +1,7 @@
+<title> Zadanie </title>: Określa tytuł strony
+<body>: Rozpoczyna sekcję ciała dokumentu
+<b>: Pogrubia tekst
+</body>: Zamyka sekcję ciała dokumentu
+<li>: Element listy
+<ul type="circle">: Rozpoczyna nieuporządkowaną listę z typem circle
+<ul type="square">: Rozpoczyna nieuporządkowaną listę z typem square

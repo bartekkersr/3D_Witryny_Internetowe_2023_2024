@@ -1,0 +1,6 @@
+Znacznik 	Atrybut		Wartość
+
+<a> 		href 		wsip
+<font>		face		Atrial
+<p>		align		right
+<meta>		name		description
