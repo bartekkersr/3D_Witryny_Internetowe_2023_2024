@@ -1,0 +1,14 @@
+body {
+    background-color: gainsboro;
+    color: green;
+}
+
+li {
+    display: inline;
+}
+
+li:visited {
+    color: red;
+}
+
+

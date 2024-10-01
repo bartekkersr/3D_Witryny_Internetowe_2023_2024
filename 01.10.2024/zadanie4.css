@@ -1,0 +1,6 @@
+Jednostka   Nazwa   Rodzaj jednostki    Opis zastosowania
+Em          Em      Jednostka względna  Określa wielkość elementów w odniesieniu do aktualnej wielkości
+pc          Pica    Jednostka absolutna Odnosi się do fizycznego rozmiaru.
+Pt          Punkt   Jednostka absolutna Jest jednostką topograficzną używaną do okreslania rozmiarów tekstu i elementów w druku oraz na ekranach
+%           procent Jednostka względna  Określa wielkość elementów w stosunku do innego elementu nadrzędnego.
+in          call    Jednostka absolutna Określa wielkość w calach - I cal = 96px 
