@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 4 </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            height: 400px;
+            padding: 20px;
+            color: white;
+
+        }
+
+        .scroll-background {
+            background-image: url('menel1.jpg'); 
+            background-attachment: scroll; 
+        }
+
+        .fixed-background {
+            background-image: url('menel1.jpg');
+            background-attachment: fixed; 
+        }
+
+        header, footer {
+            background-color: #333;
+        }
+
+        header h1, footer p {
+            margin: 0;
+        }
+
+        main {
+            background-color: #444;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="section">
+        <h1>Nagłówek</h1>
+    </header>
+    <main class="section scroll-background">
+        <p>Tło przewija się razem z treścią.</p>
+    </main>
+    <main class="section fixed-background">
+        <p>Tło pozostaje nieruchome podczas przewijania.</p>
+    </main>
+    <footer class="section">
+        <p>Stopka</p>
+    </footer>
+</body>
+</html>

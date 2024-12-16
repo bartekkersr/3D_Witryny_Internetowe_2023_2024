@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 6</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            height: 300px;
+            padding: 20px;
+            color: white;
+
+        }
+
+        .blend-multiply {
+            background-image: url('menel1.jpg');
+            background-color: rgba(255, 0, 0, 0.5);
+            background-blend-mode: multiply;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .blend-screen {
+            background-image: url('menel1.jpg');
+            background-color: rgba(0, 255, 0, 0.5);
+            background-blend-mode: screen;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .blend-overlay {
+            background-image: url('menel1.jpg');
+            background-color: rgba(0, 0, 255, 0.5);
+            background-blend-mode: overlay;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="section blend-multiply">
+        <h1>Multiply</h1>
+    </div>
+    <div class="section blend-screen">
+        <h1>Screen</h1>
+    </div>
+    <div class="section blend-overlay">
+        <h1>Overlay</h1>
+    </div>
+</body>
+</html>

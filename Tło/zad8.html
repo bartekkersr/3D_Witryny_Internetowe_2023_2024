@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 8</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            height: 300px;
+            padding: 20px;
+            color: white;
+        }
+
+        .clip-border-box {
+            background-color: rgba(255, 0, 0, 0.5);
+            background-clip: border-box;
+            border: 10px solid black;
+            padding: 20px;
+        }
+
+        .clip-padding-box {
+            background-color: rgba(0, 255, 0, 0.5);
+            background-clip: padding-box;
+            border: 10px solid black;
+            padding: 20px;
+        }
+
+        .clip-content-box {
+            background-color: rgba(0, 0, 255, 0.5);
+            background-clip: content-box;
+            border: 10px solid black;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="section clip-border-box">
+        <h1>Border Box</h1>
+    </div>
+    <div class="section clip-padding-box">
+        <h1>Padding Box</h1>
+    </div>
+    <div class="section clip-content-box">
+        <h1>Content Box</h1>
+    </div>
+</body>
+</html>
